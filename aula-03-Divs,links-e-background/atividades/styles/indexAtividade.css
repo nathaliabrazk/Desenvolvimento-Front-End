@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#pagina {
+    background-color: #fff0f3;
+    width: 100%;
+    height: 100%;
+    color: #a35d71;
+}
+
+#cabecalho {
+    background-color: #ff8fa3;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: larger;
+    color: #800f2f;
+}
+
+h1{
+    text-align: center;
+}
+
+.cake-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cake-card {
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 600px; /* Defina a largura desejada para os cards */
+    border: 2px solid #ffb3c1; /* Defina a borda desejada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicione sombra */
+}
+
+img {
+    width: 100%; /* Para garantir que a imagem preencha o card */
+    height: auto;
+}
+
+figcaption {
+    background-color: #ffb3c1;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+}
