@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 formulários</title>
+    <link rel="stylesheet" href="styles/geral.css">
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <h2>Cadastro</h2>
+        <form action="cadastrar.php">
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" placeholder="Digite o seu nome:"><br>
+
+        <label for="nome">Senha</label><br>
+        <input type="password" id="senha" placeholder="Digite sua melhor senha:"><br>
+    
+         <label for="nome">Email</label><br>
+        <input type="email" id="email" placeholder="Digite o seu email:"><br>
+
+        <label for="nome">Nascimento</label><br>
+        <input type="date" id="nascimento" placeholder="Digite a sua data de nascimento:"><br>
+
+        <label for="cor">Cor favorita</label>
+	    <input type='color' id='cor' name='cor'>
+	    <br>
+
+        <label for="filhos">Qtde Filhos</label>
+	    <input type='number' id='filhos' name='filhos'>
+	    <label for="peso">Peso</label>
+	        0<input type="range" id="peso" name="peso" min="0" max="200">200
+	    <br>
+
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+            <option value="SP">DF</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="PB">PB</option>
+            <option value="PB">MG</option>
+        </select>
+        <br>
+
+        <label for="msg">Mensagem</label><br>
+        <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+        <br>
+
+    <button type="submit ">Cadastrar</button>
+    <button type="reset">Refazer formulário</button>
+    </form>
+</body>
+</html>
