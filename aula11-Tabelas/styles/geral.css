@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th{
+    color: rgb(92, 74, 50);
+    background-color: rgb(153, 179, 228);
+}
+
+th:empty{
+    border: none;
+    background-color: transparent;
+}
+
+th:active, td:active{
+    background-color:rgba(95, 145, 238, 0.452);
+    color: rgb(255, 255, 255);
+}
+
+th:hover{
+    background-color:rgba(95, 145, 238, 0.658);
+}
+
+
+th, td{
+    border: 2px solid rgb(77, 65, 65);
+}
+
+#tabelaAluno{
+    width: 500px;
+    height: auto;
+}
+
+#tabelaAluno td, tabelaAluno{
+    height: 40px;
+}
+
+#scroll{
+    width: 30px;
+    height: 3000px;
+}
+
+thead{
+    position: sticky;
+    top: -1px;
+}
