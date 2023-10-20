@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.listas{
+    width: 500px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#viagem{
+    background-color: #81b29a;
+    color: #f4f1de;
+}
+
+#compras{
+    background-color: #f2cc8f;
+    color: #f4f1de;
+}
+
+#dicionario{
+    background-color: #3d405b;
+    color: #f4f1de;
+}
+
+#computadores{
+    background-color: #e07a5f;
+    color: #f4f1de;
+}
+
+#sumario{
+    background-color: #8d0801;
+    color: #f4f1de;
+}
+
+dt{
+    font-size: 14pt;
+    color: #708d81;
+}
+
+dd{
+    font-size: 14pt;
+    color: #61e9b0;
+}
+
+nav ul{
+    list-style: none;
+}
