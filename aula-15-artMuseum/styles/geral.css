@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+  
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue';
+}
+
+#pagina, header, footer, main{
+    display: flex;
+    width: 100%;
+}
+
+#pagina{
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer{
+    height: 80px;
+    background-color: #2A2B2A;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display:  flex;
+    gap: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 40%;
+    border: 2px solid #F5124B;
+}
+
+#destaque{
+    width: 60%;
+    padding: 20px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+#destaque p{
+    color: gray;
+}
+
+.imagem{
+    width:100%
+}
+
+button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    background-color: #F5124B;
+    color: white;
+    border-radius: 5px;
+}
