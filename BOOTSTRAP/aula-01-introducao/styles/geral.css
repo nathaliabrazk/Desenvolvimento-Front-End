@@ -1,0 +1,14 @@
+/* :root salva variaveis*/
+/* --variavel: dado*/
+/* chamar var = var(--variavel)*/
+/* element import = prioriza o código*/
+:root{
+    --rosa: #dfa1d4;
+    --preto: #000000;
+    --fontePrincipal: trebuchet;
+}
+
+#page{
+    background-color: var(--rosa);
+    color: var(--preto);
+}
